@@ -31,9 +31,6 @@ endif
 # Any additional components to apply when using this board.
 BSP_COMPONENTS:=BTFW-TX10
 
-# Without an update to device-db, the BSP packaging pipeline will continue to inject the "CYW20829B0" component into DEVICE_COMPONENTS
-DISABLE_COMPONENTS+=CYW20829B0
-
 # Any additional defines to apply when using this board.
 BSP_DEFINES:=CY_USING_HAL
 
