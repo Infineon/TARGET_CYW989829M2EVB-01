@@ -29,7 +29,7 @@ $(info Processing $(lastword $(MAKEFILE_LIST)))
 endif
 
 # Any additional components to apply when using this board.
-BSP_COMPONENTS:=BTFW-TX10
+BSP_COMPONENTS:=BTFW-BGA77-TX10
 
 # Any additional defines to apply when using this board.
 BSP_DEFINES:=CY_USING_HAL
